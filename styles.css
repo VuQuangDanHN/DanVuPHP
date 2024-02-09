@@ -1,0 +1,24 @@
+body 
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+h1, h2, h3
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn{
+    background-color: rgb(8, 8, 53);
+    border-color: rgb(4, 4, 61);
+}
+
+.dropdown-menu{
+    background-color: rgb(206, 134, 47);
+}
+img
+{
+    width: 300px;
+    height: auto;
+}
