@@ -16,7 +16,7 @@
         <?php include ('header.php'); ?>
         <h2 class="text-center m-5">UPDATE INFORMATION</h2>
         <?php
-            include 'dbshell.php';
+            include 'local-db.php';
             // SQL query to retrieve data from the 'studentsinfo' table
             $sql = "SELECT * FROM studentsinfo";
             // Execute the SQL query and store the result

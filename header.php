@@ -47,7 +47,7 @@
                 <a class="nav-link" href="ex4.php">Ex4</a>
               </li>
               </li><li class="nav-item">
-                <a class="nav-link" href="ex5.php">Ex5</a>
+                <a class="nav-link" href="https://github.com/hiephamk/Web_PHP_Group_13/blob/main/README.md">Ex5</a>
               </li>
               </li><li class="nav-item">
                 <a class="nav-link" href="ex6.php">Ex6</a>
@@ -62,6 +62,16 @@
       </nav>
     </div>
   </div>
+
+  <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
+    <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
+        <h3>Exercise 7 - Crud App</h3>
+        <ul>
+            <li> <a href="create.php" style="color:red;">Create Data</a> </li>
+            <li> <a href="read.php" style="color:red;">Read Data</a> </li>
+        </ul>
+    </div>
+    <div class="col-sm-9">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>

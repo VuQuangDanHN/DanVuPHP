@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) // isset is validating all fields should not empty b
     $groupid = $_POST["groupid"];
  
 // connect to the database server
-include 'dbshell.php';
+include 'local-db.php';
  
 // write sql statement to insert data
  
@@ -36,7 +36,7 @@ $conn->close();
 }
  
 ?>
-<a href="../andy_tasks/ex7.php">
+<a href="../DanVuPHP/ex7.php">
     <input type="button" value="Go Back" class="btn btn-outline-info"></a>
 </div>
 <?php

@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
     $groupid = $_POST['groupid']; // Group ID
 
     // Include the database connection file
-    include 'dbshell.php';
+    include 'local-db.php';
 
     // Define an SQL query to insert data into the 'studentsinfo' table
     $sql = "INSERT INTO studentsinfo (first_name, last_name, city, groupId)
@@ -64,7 +64,7 @@ if (isset($_POST['submit'])) {
 ?>
 
 <?php
-include 'dbshell.php';
+include 'local-db.php';
 // SQL query to retrieve data from the 'studentsinfo' table
 $sql = "SELECT * FROM studentsinfo";
 
