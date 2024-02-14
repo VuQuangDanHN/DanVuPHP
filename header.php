@@ -67,7 +67,7 @@
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
         <h3>Exercise 7 - Crud App</h3>
         <ul>
-            <li> <a href="create.php" style="color:red;">Create Data</a> </li>
+            <li> <a href="ex7.php" style="color:red;">Create Data</a> </li>
             <li> <a href="read.php" style="color:red;">Read Data</a> </li>
         </ul>
     </div>
